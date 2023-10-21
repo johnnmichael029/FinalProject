@@ -791,3 +791,97 @@ ul li {
     margin: 0 5px;
 
 }
+
+/* Footer third */
+.lazada-footer-about {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-about {
+    width: 1200px;
+    padding: 60px 0;
+}
+
+.footer-about1 {
+    display: flex;
+}
+
+.footer-about-col1 {
+    width: 291px;
+
+}
+
+.footer-about-col1 h1 {
+    font-size: 16px;
+    color: #606060;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0 0 5px;
+}
+
+.footer-about-text {
+    width: 218px;
+}
+
+.footer-about-text h3 {
+    margin: 15px 0;
+    font-size: 16px;
+    color: #606060;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+
+.footer-about-text h4 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(244, 244, 246);
+    font-size: 12px;
+    margin: 15px 0;
+    font-weight: 300;
+}
+
+.footer-about-col2 span,
+.footer-about-col1 span {
+    color: rgb(136, 136, 136);
+    background-color: rgb(244, 244, 246);
+    font-size: 12px;
+}
+
+.footer-about-col2,
+.footer-about-col3 {
+    width: 291px;
+}
+
+.footer-about-col2 h4 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(244, 244, 246);
+    font-size: 12px;
+    margin: 15px 0;
+    font-weight: 300;
+}
+
+.footer-about-col3 .footer-about-text h3 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.footer-about-text .text-title {
+    color: #606060;
+    font-weight: 300;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin: 5px 0;
+    padding: 0;
+}
+
+.footer-about-text a {
+    display: inline-block;
+    font-size: 11px;
+    text-decoration: none;
+    color: #888;
+}
+
+.footer-about-text a:hover {
+    text-decoration: underline;
+}
