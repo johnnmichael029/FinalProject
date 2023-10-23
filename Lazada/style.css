@@ -4,7 +4,9 @@
     font-family: Roboto-Regular, 'Helvetica Neue', Helvetica, Tahoma, Arial, sans-serif;
 }
 
-.wrapper {}
+body {
+    position: relative;
+}
 
 /* Container set height to 1000px*/
 .container {
@@ -12,12 +14,21 @@
 
 }
 
+@media (max-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+
+}
+
 /* Header */
 .link-list-header {
-    background-color: #99999907;
+    background-color: #fafafa;
     display: flex;
     justify-content: center;
-    height: 25px;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 /* Header set to display property */
@@ -60,6 +71,10 @@ span {
     display: flex;
     justify-content: center;
     height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin-top: 22px;
 }
 
 .logo-bar {
@@ -133,6 +148,7 @@ span {
     display: flex;
     justify-content: center;
     background-color: #e7e8ec7c;
+    margin-top: 100px;
 }
 
 .nav-left-bar {
@@ -828,7 +844,7 @@ ul li {
 
 .payment-img {
     width: 380px;
-    
+
 }
 
 .payment-img img {
